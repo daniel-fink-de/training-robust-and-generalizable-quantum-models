@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "circle1"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Fink <daniel-fink@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pennylane = "^0.32.0"
+matplotlib = "^3.7.3"
+dask = "^2023.10.0"
+distributed = "^2023.10.0"
+bokeh = "^3.3.0"
+
+[tool.poetry.scripts]
+training_trainable = "circle1.training_trainable:run"
+training_non_trainable = "circle1.training_non_trainable:run"
+analyse_robustness_trainable = "circle1.analyse_robustness_trainable:run"
+analyse_robustness_non_trainable = "circle1.analyse_robustness_non_trainable:run"
+analyse_generalization_trainable = "circle1.analyse_generalization_trainable:run"
+analyse_generalization_non_trainable = "circle1.analyse_generalization_non_trainable:run"
+plot_circuits = "circle1.plot_circuits:run"
+plot_generalization_trainable = "circle1.plot_generalization_trainable:run"
+plot_generalization_non_trainable = "circle1.plot_generalization_non_trainable:run"
+plot_robustness = "circle1.plot_robustness:run"
+plot_predictions = "circle1.plot_predictions:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
