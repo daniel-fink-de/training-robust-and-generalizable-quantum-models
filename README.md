@@ -1,7 +1,7 @@
 # Training robust and generalizable quantum models
 This repository contains the source code, data and plots for the paper 
 "Training robust and generalizable quantum models" 
-by Julian Berberich, Daniel Fink, Daniel Pranjić, Christian Tutschku and Christian Holm [[arXiv:TBA](https://arxiv.org/abs/TBA)].
+by Julian Berberich, Daniel Fink, Daniel Pranjić, Christian Tutschku and Christian Holm [[arXiv](https://arxiv.org/abs/2311.11871)].
 
 ## Installation
 This repository uses [poetry](https://python-poetry.org) for dependency management.
